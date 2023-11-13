@@ -44,13 +44,13 @@ export default class Example extends PureComponent {
           }}
         >
           <CartesianGrid />
-          <XAxis type="number" dataKey="x" name="stature" unit="cm" />
-          <YAxis type="number" dataKey="y" name="weight" unit="kg" />
+          <XAxis type="number" dataKey="x" name="stature" unit="" />
+          <YAxis type="number" dataKey="y" name="weight" unit="" />
           <ZAxis type="number" dataKey="z" range={[60, 400]} name="score" unit="km" />
           <Tooltip cursor={{ strokeDasharray: '3 3' }} />
           <Legend />
-          <Scatter name="A school" data={data01} fill="#8884d8" shape="star" />
-          <Scatter name="B school" data={data02} fill="#82ca9d" shape="triangle" />
+          <Scatter name="A asset" data={data01} fill="#8884d8" shape="star" />
+          <Scatter name="B asset" data={data02} fill="#82ca9d" shape="triangle" />
         </ScatterChart>
       </ResponsiveContainer>
     );
